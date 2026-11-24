@@ -15,11 +15,11 @@
 
 ## البناء من المصدر
 ```bash
-npm install
+npm ci
 npx cap sync android
-cd android && ./gradlew assembleRelease
+cd android && bash gradlew assembleDebug
 ```
-يتطلب JDK 21 و Android SDK 34+.
+يتطلب JDK 21 و Android SDK (compileSdk 36) مع ضبط ANDROID_HOME. بناء نسخة Release موقّعة يحتاج ملفات التوقيع الخاصة بالمطوّر (غير موجودة في المستودع) - التفاصيل في signing/README.md.
 
 ## التقنية
 صفحة ويب واحدة (HTML/CSS/JS) داخل غلاف Capacitor أندرويد، مع إشعارات محلية عبر `@capacitor/local-notifications`.
