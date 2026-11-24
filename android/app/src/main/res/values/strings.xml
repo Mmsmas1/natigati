@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">نتيجتي</string>
+    <string name="title_activity_main">نتيجتي</string>
+    <string name="package_name">com.mosoliman.natigati</string>
+    <string name="custom_url_scheme">com.mosoliman.natigati</string>
+</resources>
