@@ -1,0 +1,6 @@
+{
+  "appId": "com.mosoliman.natigati",
+  "appName": "نتيجتي",
+  "webDir": "www",
+  "android": { "allowMixedContent": false }
+}
